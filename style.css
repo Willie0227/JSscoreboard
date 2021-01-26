@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+.home {
+    background-color: white;
+    height: 80px;
+    width: 450px;
+    margin: 20px 80px 30px;
+
+}
+
+.guest {
+    /*display: inline;*/
+    background-color: white;
+    height: 80px;
+    width: 450px;
+    margin: 20px 80px 30px;
+
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.period {
+    display: flex;
+    justify-content: center;
+}
+
+.periodBox {
+    background-color: white;
+    height: 80px;
+    width: 450px;
+    margin-top: 15px;
+}
+
+.periodTitle {
+    text-align: center;
+    /*margin-top: 10px;*/
+
+}
+
+.penaltyList {
+    display: flex;
+    justify-content: space-between;
+    /*justify-content: center;*/
+    margin-top: 30px;
+}
+
+.person1, .person2, .person3, .person4 {
+    background-color: white;
+    height: 80px;
+    width: 450px;
+    margin: 20px 80px;
+}
+
+.penalty {
+    text-align: center;
+}
+
+.panel {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.centerText {
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
