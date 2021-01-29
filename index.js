@@ -1,7 +1,7 @@
 let vars = {
     homePoints: 0,
     guestPoints: 0,
-    periods: 0,
+    periods: 1,
     name1: "",
     name2: "",
     name3: "",
@@ -16,6 +16,9 @@ function addPT(selector, name) {
 }
 
 function deductPT(selector, name) {
+    if (name === 'periods' && vars.periods === 1){
+        return;
+    }
     if (vars[name] === 0) {
         return;
     }
@@ -38,7 +41,7 @@ function reset() {
     vars = {
         homePoints: 0,
         guestPoints: 0,
-        periods: 0,
+        periods: 1,
         name1: "",
         name2: "",
         name3: "",
